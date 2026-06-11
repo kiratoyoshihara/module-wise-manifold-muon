@@ -16,7 +16,6 @@ Built on [nanoGPT](https://github.com/karpathy/nanoGPT) by Andrej Karpathy.
 ## Paper
 
 - OpenReview: https://openreview.net/forum?id=0uL5u1Lywf
-- A copy of the workshop paper is included in this repository: [`Different_Layers_Different.pdf`](./Different_Layers_Different.pdf).
 
 ## Method in brief
 
@@ -39,8 +38,8 @@ The question we study is which manifold each *module type* should use.
 
 *The `HETERO` assignment within each of the 12 transformer blocks: attention
 projections are updated by Stiefel Manifold Muon (orange), feed-forward projections
-by DGram Manifold Muon (blue), and all remaining parameters — input embedding,
-positional encoding, final linear layer, and normalization scales — by AdamW (gray).*
+by DGram Manifold Muon (blue), and all remaining parameters, including input embedding,
+positional encoding, final linear layer, and normalization scales by AdamW (gray).*
 
 ## Results
 
