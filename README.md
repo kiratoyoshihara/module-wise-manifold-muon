@@ -33,7 +33,9 @@ matrix is constrained to one of two manifolds:
 
 The question we study is which manifold each *module type* should use.
 
-![Per-module optimizer assignment in the HETERO configuration](./assets/architecture.png)
+<p align="center">
+  <img src="./assets/architecture.png" width="350" alt="Per-module optimizer assignment in the HETERO configuration">
+</p>
 
 *The `HETERO` assignment within each of the 12 transformer blocks: attention
 projections are updated by Stiefel Manifold Muon (orange), feed-forward projections
