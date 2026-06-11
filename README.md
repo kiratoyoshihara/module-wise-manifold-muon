@@ -2,6 +2,8 @@
 
 **Module-Wise Weight-Space Geometry in Transformer Optimization**
 
+> 🎉 Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
+
 This repository contains the code for our study on assigning *different* manifold
 geometries to different transformer modules when training GPT-2 with Manifold Muon.
 The central finding is an asymmetry: constraining **attention** layers with **Stiefel**
@@ -9,9 +11,9 @@ geometry while assigning **DGram** geometry to **MLP** layers gives the best sta
 configuration, whereas any configuration that places DGram on attention exhibits
 training instability.
 
-> Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
 
-Built on [nanoGPT](https://github.com/karpathy/nanoGPT) by Andrej Karpathy.
+Built on [nanoGPT](https://github.com/karpathy/nanoGPT) and
+[thinking-machines-lab/manifolds](https://github.com/thinking-machines-lab/manifolds).
 
 ## Paper
 
@@ -105,8 +107,9 @@ in the paper.
 ## Acknowledgements
 
 This codebase is built on [nanoGPT](https://github.com/karpathy/nanoGPT). The
-Manifold Muon formulation follows the modular-manifold line of work; see the paper's
-references for details.
+Manifold Muon formulation builds on
+[thinking-machines-lab/manifolds](https://github.com/thinking-machines-lab/manifolds)
+and follows the modular-manifold line of work; see the paper's references for details.
 
 ## License
 
