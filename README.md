@@ -1,8 +1,11 @@
 # Different Layers, Different Manifolds
 
+[![arXiv](https://img.shields.io/badge/arXiv-2606.13276-b31b1b.svg)](https://arxiv.org/abs/2606.13276)
+[![OpenReview](https://img.shields.io/badge/OpenReview-0uL5u1Lywf-8c1b13.svg)](https://openreview.net/forum?id=0uL5u1Lywf)
+
 **Module-Wise Weight-Space Geometry in Transformer Optimization**
 
-> 🎉 Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
+> [!NOTE] 🎉 Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
 
 This repository contains the code for our study on assigning *different* manifold
 geometries to different transformer modules when training GPT-2 with Manifold Muon.
@@ -15,9 +18,6 @@ training instability.
 Built on [nanoGPT](https://github.com/karpathy/nanoGPT) and
 [thinking-machines-lab/manifolds](https://github.com/thinking-machines-lab/manifolds).
 
-## Paper
-
-- OpenReview: https://openreview.net/forum?id=0uL5u1Lywf
 
 ## Method in brief
 
