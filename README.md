@@ -121,7 +121,7 @@ copyright notice is retained in [`LICENSE`](./LICENSE).
 
 If you find this work useful, please cite:
 
-​```bibtex
+```bibtex
 @misc{yoshihara2026differentmanifolds,
       title={Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization},
       author={Kirato Yoshihara},
@@ -130,4 +130,4 @@ If you find this work useful, please cite:
       archivePrefix={arXiv},
       url={https://arxiv.org/abs/2606.13276},
 }
-​```
+```
