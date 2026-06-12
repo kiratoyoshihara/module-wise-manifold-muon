@@ -116,3 +116,18 @@ and follows the modular-manifold line of work; see the paper's references for de
 
 MIT. This repository is derived from nanoGPT, which is also MIT-licensed; the original
 copyright notice is retained in [`LICENSE`](./LICENSE).
+
+## Citation
+
+If you find this work useful, please cite:
+
+​```bibtex
+@misc{yoshihara2026differentmanifolds,
+      title={Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization},
+      author={Kirato Yoshihara},
+      year={2026},
+      eprint={2606.13276},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2606.13276},
+}
+​```
