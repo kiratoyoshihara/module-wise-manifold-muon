@@ -5,7 +5,8 @@
 
 **Module-Wise Weight-Space Geometry in Transformer Optimization**
 
-> [!NOTE] 🎉 Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
+> [!NOTE] 
+> 🎉 Accepted at the **ICML 2026 Workshop on Weight-Space Symmetries (WSS)**.
 
 This repository contains the code for our study on assigning *different* manifold
 geometries to different transformer modules when training GPT-2 with Manifold Muon.
